@@ -1,22 +1,91 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f8ff;
-  color: #333;
-  text-align: center;
+/* General Reset */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
 }
 
-h1 {
+/* Body */
+body {
+  background: linear-gradient(180deg, #e8f0ff, #ffffff);
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background-color: #0078d7;
+  color: white;
+  padding: 2rem 1rem;
+  border-bottom: 5px solid #005a9e;
+}
+header h1 {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+header .tagline {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+/* Intro Section */
+.intro {
+  padding: 3rem 1rem;
+}
+.intro h2 {
   color: #0078d7;
-  margin-top: 40px;
+  margin-bottom: 2rem;
 }
 
-img {
-  margin-top: 20px;
-  border-radius: 10px;
+/* Team Cards */
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.member-card {
+  background: #f8fbff;
+  border: 1px solid #cfd8dc;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 250px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease;
+}
+.member-card:hover {
+  transform: translateY(-8px);
+}
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
 }
 
-p {
-  font-size: 18px;
+/* About Project */
+.project {
+  background-color: #f4f9ff;
+  padding: 3rem 1rem;
+}
+.project h2 {
+  color: #005a9e;
+  margin-bottom: 1rem;
+}
+.project p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #0078d7;
+  color: white;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
 }
