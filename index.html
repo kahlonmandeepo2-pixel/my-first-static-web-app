@@ -1,21 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My First Static Web App</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Welcome to Our Static Web App </h1>
-  <h2>Group Members</h2>
-  <p><strong>SimranMandeep</strong> – Developer</p>
-  <p><strong>Mandeep</strong> – Designer</p>
+  <!-- Navigation Bar -->
+  <header>
+    <h1>🌐 My First Static Web App</h1>
+    <p class="tagline">Built with HTML, CSS, and Azure Static Web Apps 🚀</p>
+  </header>
 
-  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="120" />
+  <!-- Introduction Section -->
+  <section class="intro">
+    <h2>👋 Meet Our Team</h2>
+    <div class="team-container">
+      <div class="member-card">
+        <img src="C:\Users\gagan\OneDrive\Pictures\Mandeep.jpeg" alt="Member 1" class="profile-img">
+        <h3>Mandeep Kaur</h3>
+        <p>💻 Role: Web Developer<br>
+           🎓 Student ID: A00192704<br>
+           ✉️ Email: kahlonmandeepo2@gmail.com</p>
+      </div>
 
-  <p id="greet"></p>
+      <div class="member-card">
+        <img src="C:\Users\gagan\OneDrive\Pictures\simran.jpeg" alt="Member 2" class="profile-img">
+        <h3>Simran</h3>
+        <p>🧩 Role: Designer & Tester<br>
+           🎓 Student ID: A00193725<br>
+           ✉️ Email: simrantakhi2@gmail.com</p>
+      </div>
+    </div>
+  </section>
 
-  <script src="script.js"></script>
+  <!-- About Project Section -->
+  <section class="project">
+    <h2>🛠 About This Project</h2>
+    <p>
+      This web application is our first static website hosted on Microsoft Azure.
+      It demonstrates how HTML, CSS, and GitHub can be used to create, deploy, and manage
+      a cloud-based static web app efficiently. The site is fully responsive, lightweight, 
+      and connected to GitHub for continuous deployment.
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 CST325 | Microsoft Azure Administration Project | All Rights Reserved.</p>
+  </footer>
 </body>
 </html>
